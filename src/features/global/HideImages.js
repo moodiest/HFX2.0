@@ -1,5 +1,10 @@
 const HFX = require("../../HFX");
 
+/**
+ * @module Global
+ * @name HideImages
+ * @description Hides all image tags on the page.
+ */
 class HideImages extends HFX.Feature {
   constructor() {
     super({

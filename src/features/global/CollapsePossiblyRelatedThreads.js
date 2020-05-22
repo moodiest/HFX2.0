@@ -1,5 +1,11 @@
 const HFX = require("../../HFX");
 
+/**
+ * @module Sub
+ * @name CollapsePossiblyRelatedThreads
+ * @author "xadamxk"
+ * @description Automatically collapse PRT results.
+ */
 class CollapsePossiblyRelatedThreads extends HFX.Feature {
   constructor() {
     super({
@@ -26,7 +32,7 @@ class CollapsePossiblyRelatedThreads extends HFX.Feature {
       prtTitle.parent().append($("<div>").addClass("expcolimage")
         .append(`<img id='relatedThreadsCollapse' alt='[+]' title='[+]' style='cursor: pointer;' src='${collapseImages.collapse}' />`));
 
-      $("#relatedThreadsCollapse").on("click", function() {
+      $("#relatedThreadsCollapse").on("click", function () {
         prtTableRows.toggle();
         togglePRTCollapseAttr(prtTableRows);
       });

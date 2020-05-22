@@ -1,5 +1,11 @@
 const HFX = require("../../HFX");
 
+/**
+ * @module Global
+ * @name ChangeBodyColor
+ * @author "xadamxk"
+ * @description Changes the color of text in tables.
+ */
 class ChangeBodyColor extends HFX.Feature {
   constructor() {
     super({
