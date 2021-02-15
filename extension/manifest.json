@@ -47,7 +47,8 @@
         "release/js/HFX.js"
       ],
       "css": [
-        "assets/css/HFX.css"
+        "assets/css/HFX.css",
+        "assets/lib/@yaireo/tagify.css"
       ]
     }
   ],
@@ -61,5 +62,7 @@
   },
   "web_accessible_resources": [
     "/assets/images/icon128.png"
+    "/assets/images/icon128.png",
+    "/assets/images/dismiss_notice.png"
   ]
 }
