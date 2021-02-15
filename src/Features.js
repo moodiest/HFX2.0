@@ -20,5 +20,6 @@ module.exports = {
   ShortcutLogs: require("./features/game/ShortcutLogs"),
   ShowPostNumbers: require("./features/threads/ShowPostNumbers"),
   SmartQuote: require("./features/threads/SmartQuote"),
-  TrackingLinks: require("./features/pms/TrackingLinks")
+  TrackingLinks: require("./features/pms/TrackingLinks"),
+  UserMentions: require("./features/threads/UserMentions")
 };
